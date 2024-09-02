@@ -11,7 +11,7 @@ const Note = () => {
     };
     return ( 
         <div>
-        <h1>Note Taking App</h1>
+        <h1>Notes Taking App</h1>
         <NoteForm addNote={addNote}/>
         <NoteList notes={notes}/>
         </div>
